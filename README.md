@@ -44,11 +44,16 @@ O aimbot não escreve ângulos na memória: ele move o mouse (`SendInput`), como
 - Jogo em **modo janela** para ver o ESP. O overlay não aparece por cima de tela cheia exclusiva. Funciona com widescreen fix.
 - Se o jogo estiver rodando como administrador, rode o trainer como administrador também.
 
+## Download
+
+Quem não quiser compilar pode baixar o executável pronto (Windows x86) na página de [Releases](https://github.com/alexhackers/MaxPayneExternal/releases/latest). O SHA-256 de cada binário está nas notas da release.
+Antivírus podem sinalizar o arquivo, porque ele lê e escreve a memória de outro processo. O código-fonte completo está em [`src/MaxPayneExternal.c`](src/MaxPayneExternal.c) para quem preferir compilar.
+
 ## Como usar
 
 1. Abra o jogo em janela. Use [`tools/MaxPayne_janela.bat`](tools/MaxPayne_janela.bat), que passa `-window`: copie o arquivo para a pasta do jogo ou passe o caminho dela como argumento.
 2. Carregue um save.
-3. Rode `bin\MaxPayneExternal.exe`. Se o jogo ainda não estiver aberto, ele espera.
+3. Rode o `MaxPayneExternal.exe` (baixado da release ou compilado em `bin\`). Se o jogo ainda não estiver aberto, ele espera.
 4. Use as teclas da tabela. O console mostra o estado de cada cheat e dos hooks.
 5. Para sair, aperte **END** ou feche a janela do console. As duas formas restauram o jogo.
 
