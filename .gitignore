@@ -1,0 +1,20 @@
+# binarios e artefatos de build
+bin/
+*.exe
+*.pdb
+*.lib
+*.obj
+*.o
+*.asi
+*.log
+caves.bin
+
+# material local / antigo (fora do repositorio)
+_arquivo/
+
+# editores / sistema
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
